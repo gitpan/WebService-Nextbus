@@ -1,7 +1,9 @@
-WebService/Nextbus version 0.10
+WebService/Nextbus version 0.11
 ===============================
 
-This package can be used in combination with...
+This package can be used in combination with WebService::Nextbus::Agency to
+get and store useful structure information for making queries to the Nextbus
+website (www.nextbus.com)
 
 INSTALLATION
 
@@ -18,6 +20,9 @@ To install to a non-standard location use one of the following:
 	perl Makefile.PL PREFIX=<MYPREFIX>
 
 DEPENDENCIES
+
+The package requires WebService::Nextbus::Agency and LWP::UserAgent.
+The tests use Test::More.
 
 COPYRIGHT AND LICENSE
 

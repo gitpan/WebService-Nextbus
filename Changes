@@ -7,5 +7,8 @@ Revision history for Perl extension WebService::Nextbus.
 0.10 7/12/04
 	- Finally got around to coding the module as described in the docs.  
 	Seems to work correctly when used to propagate the routes tree for the
-	sf-muni agency, but haven't tested with any other agencies.  No error
-	checking yet.
+	sf-muni and emery agencies, but haven't tested with any other agencies.  
+	No error checking yet.
+
+0.11 7/14/04
+	- Cleaned up a lot of code, much better documentation, better tests
