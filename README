@@ -1,0 +1,25 @@
+WebService/Nextbus version 0.10
+===============================
+
+This package can be used in combination with...
+
+INSTALLATION
+
+To install this module type the following:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+To install to a non-standard location use one of the following:
+
+	perl Makefile.PL LIB=<MYLIB>
+	perl Makefile.PL PREFIX=<MYPREFIX>
+
+DEPENDENCIES
+
+COPYRIGHT AND LICENSE
+
+Licensed by Creative Commons
+http://creativecommons.org/licenses/by-nc-sa/2.0/

@@ -1,0 +1,11 @@
+Revision history for Perl extension WebService::Nextbus.
+
+0.01  Mon Dec  8 04:01:10 2003
+	- original version; created by h2xs 1.21 with options
+		-XAnWebService::Nextbus
+
+0.10 7/12/04
+	- Finally got around to coding the module as described in the docs.  
+	Seems to work correctly when used to propagate the routes tree for the
+	sf-muni agency, but haven't tested with any other agencies.  No error
+	checking yet.
