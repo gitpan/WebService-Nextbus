@@ -6,7 +6,7 @@ use warnings;
 use WebService::Nextbus::Agency;
 use LWP::UserAgent;
 
-our $VERSION = '0.01';
+our $VERSION = '0.10';
 
 sub new {
 	my $proto = shift;
