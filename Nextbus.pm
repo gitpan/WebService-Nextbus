@@ -6,7 +6,7 @@ use integer;
 use WebService::Nextbus::Agency;
 use LWP::UserAgent;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 sub new {
 	my $proto = shift;
@@ -222,13 +222,13 @@ For example:
   $nb->buildAgency('emery'); # Scraping the webpages repeatedly can take time
 
   # Now store the resulting agency, retrieve it, and dump its contents
-  use Storable;
-  store($nb->agencies->{'emery'}, 'emery.store');
+  use Storable qw(nstore);
+  nstore($nb->agencies->{'emery'}, 'emery.store');
   $agency = retrieve('emery.store');
   print $agency->routesAsString;
 
   # Or store just the routes tree, retrieve it, and dump its contents
-  store($nb->agencies->{'emery'}->routes, 'emery_routes.store');
+  nstore($nb->agencies->{'emery'}->routes, 'emery_routes.store');
   $agency = new WebService::Nextbus::Agency;
   $agency->routes(retrieve('emery_routes.store'));
   print $agency->routesAsString;

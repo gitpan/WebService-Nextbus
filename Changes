@@ -12,3 +12,7 @@ Revision history for Perl extension WebService::Nextbus.
 
 0.11 7/14/04
 	- Cleaned up a lot of code, much better documentation, better tests
+
+0.12 7/14/04
+	- Changed some documentation to recommend use of Storable->nstore rather
+	than simply Storable->store to improve interoperability.
